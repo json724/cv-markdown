@@ -1,2 +1,7 @@
 # cv-markdown
-Track changes in CV for easy control version.
+
+Personal Project to track changes in my CV.
+
+[0.0.2]
+
+Changes to content.
