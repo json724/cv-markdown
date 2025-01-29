@@ -1,10 +1,10 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <h1 style="color:#003366;font-size: 15pt;">
-    <a href="https://www.linkedin.com/in/json724/" style="color:#003366; text-decoration:none;">🔗 JAISON ANDRÉS GONZÁLEZ DE LA TORRE</a>
+    <a href="https://www.linkedin.com/in/json724/" style="color:#003366; text-decoration:none;">🔗 JAISON ANDRES GONZALEZ DE LA TORRE</a>
     </h1>
     <p style="font-size: 12pt;">📍 <strong style="color:#4D4D4D;">Colombia</strong> | 📧 <a href="mailto:jaison.gonzalezd@gmail.com" style="color:#003366;">jaison.gonzalezd@gmail.com</a> | 📱 <strong style="color:#4D4D4D;">+57 300 7354355</strong></p>
-    <p style="font-size: 12pt;">📍 <strong style="color:#4D4D4D;">Languages:</strong>
+    <p style="font-size: 12pt;">🗣️ <strong style="color:#4D4D4D;">Languages:</strong>
     <span style="color:#4D4D4D;">Spanish (Native); English (Fluent)</span></p>
   </div>
   <div>
@@ -22,9 +22,9 @@
 </p>
 
 <p style="color:#4D4D4D; font-size: 10.5pt; line-height: 1; margin: 5px 0;">
-  In my current role at <strong>Mercado Libre</strong>, I lead the implementation of systems capable of handling up to 
-  <strong>100K requests per minute</strong> with a <strong>p95 latency of 100 ms</strong> and <strong>99.98% uptime</strong>. These systems leverage technologies such as 
-  <strong>GenAI</strong>, <strong>ETL/ELT processes</strong>, and the productionization of advanced models and heuristics. Recognized for guiding technical teams toward operational excellence and delivering strategic outcomes that maximize user impact and company revenue.
+  In my current role at <strong>Mercado Libre</strong>, the largest tech company in LATAM, I lead the implementation of systems capable of handling up to 
+  <strong>100K requests per minute</strong> with a <strong>p95 latency of 100 ms</strong> and <strong>99.98% uptime</strong>. These systems leverage on technologies such as 
+  <strong>GenAI</strong>, <strong>ETL/ELT processes</strong>, and the productionization of advanced <strong>ML models</strong> and heuristics. Recognized for guiding technical teams toward operational excellence and delivering strategic outcomes that maximize user impact and company revenue.
 </p>
 
 <h4 style="color:#003366; font-size: 10.5pt; line-height: 1; margin: 5px 0;">Other Relevant Experience</h4> 
@@ -73,7 +73,8 @@
 <hr style="border: none; margin: 5px 0;" />
 
 <h4 style="color:#4D4D4D; font-size: 12pt; line-height: 1.3; margin: 5px 0;">
-  <strong>Claro Colombia, Senior Data Engineer</strong> <em>(November 2019 – September 2020)</em>
+<h4 style="color:#003366; font-size: 10.5pt; line-height: 1; margin: 5px 0;">Claro Colombia [Telco]</h4> 
+  <strong>Senior Data Engineer</strong> <em>(November 2019 – September 2020)</em>
 </h4>
 <ul style="color:#4D4D4D; font-size: 10.5pt; line-height: 1; margin: 5px 0;">
   <li>Designed and productionized Data Products for monitoring prepaid campaigns.</li>
@@ -86,7 +87,7 @@
 <hr style="border: none; margin: 5px 0;" />
 
 <h4 style="color:#003366; font-size: 10.5pt; line-height: 1; margin: 5px 0;">EARLY ROLES (BEFORE 2019)</h4> 
-<h4 style="color:#003366; font-size: 10.5pt; line-height: 1; margin: 5px 0;">Tigo Colombia</h4> 
+<h4 style="color:#003366; font-size: 10.5pt; line-height: 1; margin: 5px 0;">Tigo Colombia [Telco]</h4> 
 <h4 style="color:#4D4D4D; font-size: 12pt; line-height: 1.3; margin: 5px 0;">
   <strong>Senior Data Analyst</strong> <em>(2015 - 2019)</em>
 </h4>
