@@ -26,7 +26,7 @@ Jul 2025 - Present | Colombia
 
 ### Technical Leader (Machine Learning, Fintech) | Mercado Libre
 
-Jan 2022 - Jun 2025 | Colombia
+Apr 2022 - Jun 2025 | Colombia
 
 - Technically guided a multidisciplinary team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI solutions for Mercado Pago on clean, hexagonal architectures.
 - Financial Data Enrichment, a GenAI platform that categorizes financial transactions across LATAM for Open Finance and saves $1.2M USD per month. In 2023, as soon as the GPT-3.5 API made it viable, moved it from regex rules to LLMs, owning the anonymization so no transaction reached a model with personal data: accuracy from 60% to 80%, operational cost down 75%, throughput from tens of millions of transactions per quarter to tens of millions per week.
@@ -35,7 +35,7 @@ Jan 2022 - Jun 2025 | Colombia
 
 ### Senior Machine Learning Engineer | Mercado Libre
 
-Oct 2020 - Dec 2021 | Colombia
+Oct 2020 - Mar 2022 | Colombia
 
 - Developed and productionized ML solutions for logistics optimization, reducing estimation errors by 30% and generating $3.2M USD in monthly billing savings.
 - Optimized data pipelines, reducing ETL execution time and cost by 8x.

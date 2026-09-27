@@ -35,7 +35,7 @@ I lead small, project-based teams of expert engineers (backend, frontend, data s
 • Built the team's agentic tooling (context engineering, skills, plugins and hooks) and ran experiments with autonomous agent loops and goal-driven runs, several with positive results for production use.
 • Raised the bar for AI evaluation: fixed a statistical bug in a shared LLM-as-judge library, rebuilt a PII-classification benchmark free of data leakage, and made outcome-based agent evaluations the team standard.
 
-## Experience 2 (editar el puesto actual) — Technical Leader (Machine Learning, Fintech) · Mercado Libre · Jan 2022 – Jun 2025
+## Experience 2 (editar el puesto actual) — Technical Leader (Machine Learning, Fintech) · Mercado Libre · Apr 2022 – Jun 2025
 
 Technically guided a multidisciplinary team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI solutions for Mercado Pago on clean, hexagonal architectures.
 
