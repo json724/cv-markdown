@@ -59,11 +59,15 @@ Demand forecasting and regression models for customer service that raised agent 
 ### Quality Analyst · Tigo Colombia · Jul 2013 – Jun 2015 / Computer Programming Teacher · 2010
 Sin descripción; considerar ocultar el puesto de profesor (2010) para enfocar el perfil.
 
-## Featured (sección Destacados)
+## Featured (publicado 2026-09-27)
 
-• Artículo: The New Financial Babel: Teaching AI to Speak Money in LATAM — https://medium.com/mercadolibre-tech/la-nueva-babel-financiera-ense%C3%B1ar-a-la-ia-a-hablar-dinero-en-latinoam%C3%A9rica-4605235e3aac
-• Charla: Fine-tuning with LLMs: Control and Privacy in Financial NLP (PyCon Colombia 2025) — https://2025.pycon.co/#/talks/22 (y subir el PDF de la presentación).
-• Certificación: Generative AI Leader, Google (Jul 2026).
+• Link — The New Financial Babel: Teaching AI to Speak Money in LATAM
+  https://medium.com/mercadolibre-tech/la-nueva-babel-financiera-ense%C3%B1ar-a-la-ia-a-hablar-dinero-en-latinoam%C3%A9rica-4605235e3aac
+  How we moved LATAM transaction categorization from regex rules to LLMs (2023) and then to in-house embeddings distilled from them (2024): from 60% to 90% accuracy, with privacy by design. Mercado Libre Tech blog, Jul 2025.
+• Link — Fine-tuning with LLMs: Control and Privacy in Financial NLP (PyCon Colombia 2025)
+  https://2025.pycon.co/#/talks/22 (LinkedIn lo recorta a https://2025.pycon.co/; pendiente: subir la presentación en PDF)
+  Talk co-presented with Jonny Jimenez: using an LLM as the teacher to label anonymized financial transactions, and a fine-tuned BERT-style model as the student that runs in-house, for accuracy, cost and privacy control.
+• La certificación Generative AI Leader (Google, Jul 2026) está en Licencias y certificaciones.
 
 ## Projects (sección Proyectos) — 3 entradas
 
