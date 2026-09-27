@@ -82,3 +82,11 @@ Skills: Claude Code · Codex · Prompt Engineering
 ### Model and harness lab (2023 – present)
 Hands-on across model families to know what each one is good for: OpenAI GPT from 3.5 to GPT-6 Astra, Anthropic Claude from Claude 3.7 Sonnet to current Opus, Sonnet and Haiku, and Google Gemini. Deployed self-hosted small models (Gemma 4 26B MoE and E4B), tested GLM-5.3, and ran the Claude Code harness on self-hosted models to measure where local inference is enough and where it is not. Next on the ladder: fine-tuning an LLM (supervised fine-tuning with LoRA adapters, then preference or reward-based post-training such as DPO or GRPO), as soon as a use case needs more than prompts, context and RAG can give.
 Skills: Large Language Models (LLM) · Small Language Models · Claude Code
+
+## Skills (publicado 2026-09-27)
+
+Top skills (Acerca de): AI Agents · Large Language Models (LLM) · Generative AI · Model Context Protocol (MCP) · Technical Leadership
+
+Agregadas (24), asociadas a los puestos de Technical Leader: AI Agents, Large Language Models (LLM), Generative AI, Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Large Language Model Operations (LLMOps), MLOps, Context Engineering, Software Architecture, Domain-Driven Design (DDD), Hexagonal Architecture, FastAPI, Claude Code, Transformer Models, Fine Tuning, Model Evaluation, Google Cloud Platform (GCP), Kubernetes, Docker, Apache Kafka, Spec-Driven Development, Storytelling, Executive Presentations.
+
+Eliminadas (21): Matlab, Microsoft Excel, Visual Basic for Applications (VBA), COPC, Customer Service, Redes informáticas, Time Management, TeamWork, Prioritize Workload, Logical Approach, Adaptability, Persuasion, Team Motivation, Analytical Reasoning, Data Extraction, Databases, Tableau, Business Intelligence (BI), Investigación y desarrollo, Management, Decision-Making.
