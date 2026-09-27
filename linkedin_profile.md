@@ -2,7 +2,7 @@
 
 ## Headline
 
-AI Engineering Technical Lead @ Mercado Libre | Building with AI since 2023: LLMs in production, agentic systems, MCP | Fintech
+Technical Leader, AI Engineering @ Mercado Libre | Building with AI since 2023: LLMs in production, agentic systems, MCP | Fintech
 
 ## About
 
@@ -25,7 +25,7 @@ In a field that changes every month, I keep learning by building in my own time;
 
 Focus: agentic engineering (Claude Code, Codex, MCP, skills, context engineering, RAG) · LLM and agent evaluation · tabular foundation models. Models: GPT since 3.5, Claude since 3.7, self-hosted Gemma 4.
 
-## Experience 1 (nuevo puesto) — AI Engineering Technical Lead · Mercado Libre · Jul 2025 – Present
+## Experience 1 (nuevo puesto) — Technical Leader (AI Engineering) · Mercado Libre · Jul 2025 – Present
 
 I technically guide a team of up to 20 through the transition from classic ML to AI engineering: spec-driven development on clean, hexagonal architectures, MCP and agentic IDEs (Claude Code, Codex, Cursor) as our standard way of building.
 
@@ -35,7 +35,7 @@ I technically guide a team of up to 20 through the transition from classic ML to
 • Built the team's agentic tooling (context engineering, skills, plugins and hooks) and ran experiments with autonomous agent loops and goal-driven runs, several with positive results for production use.
 • Raised the bar for AI evaluation: fixed a statistical bug in a shared LLM-as-judge library, rebuilt a PII-classification benchmark free of data leakage, and made outcome-based agent evaluations the team standard.
 
-## Experience 2 (editar el puesto actual) — Machine Learning Technical Lead · Mercado Libre · Jan 2022 – Jun 2025
+## Experience 2 (editar el puesto actual) — Technical Leader (Machine Learning, Fintech) · Mercado Libre · Jan 2022 – Jun 2025
 
 Technically guided a multidisciplinary team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI solutions for Mercado Pago on clean, hexagonal architectures.
 

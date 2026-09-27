@@ -1,6 +1,6 @@
 # JAISON ANDRES GONZALEZ DE LA TORRE
 
-**AI Engineering Technical Leader | Agentic Systems, MCP, Spec-Driven Development | ML for Fintech**
+**Technical Leader, AI Engineering | Agentic Systems, MCP, Spec-Driven Development | ML for Fintech**
 
 Colombia | jaison.gonzalezd@gmail.com | +57 300 7354355 | linkedin.com/in/json724
 
@@ -12,7 +12,7 @@ Technical leader with 13 years in data and machine learning, the last 6 at Merca
 
 ## Experience
 
-### AI Engineering Technical Leader | Mercado Libre
+### Technical Leader (AI Engineering) | Mercado Libre
 
 Jul 2025 - Present | Colombia
 
@@ -24,7 +24,7 @@ Jul 2025 - Present | Colombia
 - Raised the bar for AI evaluation: fixed a statistical bug in a shared LLM-as-judge library, rebuilt a PII-classification benchmark free of data leakage, and made outcome-based agent evaluations the team standard.
 - Designed a GPU capacity allocation system and led guardrails for its AI recommender after data showed the agent, not the users, was over-sizing hardware requests.
 
-### Machine Learning Technical Leader, Fintech | Mercado Libre
+### Technical Leader (Machine Learning, Fintech) | Mercado Libre
 
 Jan 2022 - Jun 2025 | Colombia
 
