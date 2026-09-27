@@ -1,6 +1,6 @@
 # JAISON ANDRES GONZALEZ DE LA TORRE
 
-**Technical Leader, AI Engineering | Agentic Systems, MCP, Spec-Driven Development | ML for Fintech**
+**Technical Leader, AI Engineering | Agentic Systems, LLMs in Production, MCP | Fintech**
 
 Colombia | jaison.gonzalezd@gmail.com | +57 300 7354355 | linkedin.com/in/json724
 
@@ -8,7 +8,15 @@ Languages: Spanish (native); English (advanced technical reading, spoken English
 
 ## Summary
 
-Technical leader with 13 years in data and machine learning, the last 6 at Mercado Libre, technically guiding teams of up to 20 people and, since 2025, small expert teams amplified by AI. I have built with AI since it became commercially available: in 2023 I put LLMs into production to categorize financial transactions across Latin America, and in 2024 distilled them into in-house embeddings serving hundreds of millions of transactions a month in near real time. Since July 2025 I lead AI engineering: spec-driven development on clean, hexagonal architectures, MCP servers and agentic workflows, including a platform that turned three months of modeling work into a single day. Hands-on with OpenAI and Anthropic models since GPT-3.5 and Claude 3.7, and with self-hosted small models behind agent harnesses. I also use AI beyond code, to build the storytelling and impact presentations I take to senior leadership. Curiosity for new tools, paired with the technical discipline that makes them work in production.
+AI engineering leader with 13 years in data and machine learning, 6 at Mercado Libre. I have shipped LLMs to production since 2023, as soon as the GPT-3.5 API made it viable, and today I lead small expert teams that, amplified by AI agents, deliver what used to take large ones. I pair curiosity for every new model and tool with the discipline that makes them work in production: clean architecture, deterministic contracts around LLMs and evaluations that measure outcomes.
+
+## Selected Impact
+
+- 3 months to 1 day: my GPU platform for tabular foundation models lets one senior data scientist build in a day the models that took two seniors three months, with comparable ROC AUC, KS and F1.
+- $1.2M USD saved per month by Financial Data Enrichment, the GenAI platform that categorizes financial transactions across LATAM: accuracy from 60% to 90% on hundreds of millions of transactions a month.
+- Hundreds of engineers build with the multi-agent development plugin I lead for Claude Code and Codex.
+- $3.2M USD per month in logistics billing savings from ML estimation models.
+- 100K requests per minute, p95 of 200 ms and 99.97% uptime on near-real-time ML systems.
 
 ## Experience
 
@@ -16,35 +24,33 @@ Technical leader with 13 years in data and machine learning, the last 6 at Merca
 
 Jul 2025 - Present | Colombia
 
-- Lead small, project-based teams of expert engineers (backend, frontend, data science, data engineering) that, amplified by AI, go as far as a large team used to; our standard way of building is spec-driven development on clean, hexagonal architectures, the Model Context Protocol (MCP) and agentic IDEs (Claude Code, Codex, Cursor).
-- Designed and implemented a GPU platform for tabular foundation models (TabPFN, TabICL, Mitra, TabDPT) on datasets of millions of rows: model development that took two senior data scientists three months now takes one a single day, with comparable ROC AUC, KS and F1. Its hexagonal architecture is what made spec-driven development with agents work. Financial Risk and Shipping teams piloted it and requested continued development.
-- Designed a secure MCP gateway that lets AI agents operate internal services on behalf of users, with token-based identity, fail-closed authorization and prompt-injection protection.
-- Leading the evolution of a multi-agent development platform, used by hundreds of engineers through one plugin for Claude Code and Codex, from a workflow into an agent: deterministic code for mechanical steps and a PydanticAI agent loop for open-ended ones, chosen over codex-rs because it covered the missing loop and integrates natively with our FastAPI backend.
-- Built the team's agentic tooling (context engineering, skills, plugins and hooks) and ran experiments with autonomous agent loops and goal-driven runs, several with positive results for production use.
-- Raised the bar for AI evaluation: fixed a statistical bug in a shared LLM-as-judge library, rebuilt a PII-classification benchmark free of data leakage, and made outcome-based agent evaluations the team standard.
-- Designed a GPU capacity allocation system and led guardrails for its AI recommender after data showed the agent, not the users, was over-sizing hardware requests.
+- Lead small, project-based teams of expert engineers (backend, frontend, data science, data engineering) through the shift from classic ML to AI engineering: spec-driven development on hexagonal architectures, MCP and agentic IDEs (Claude Code, Codex, Cursor).
+- Built a GPU platform for tabular foundation models (TabPFN, TabICL, Mitra, TabDPT) that serves datasets of millions of rows synchronously and asynchronously; its hexagonal design is what made spec-driven development with agents work. Financial Risk and Shipping piloted it and asked to scale it.
+- Leading a multi-agent development platform, one plugin for Claude Code and Codex used by hundreds of engineers, from workflow to agent: deterministic code for mechanical steps and a PydanticAI agent loop for open-ended ones, chosen over codex-rs for its native fit with our FastAPI backend.
+- Designed a secure MCP gateway that lets AI agents act on internal services on behalf of users, with token-based identity, fail-closed authorization and prompt-injection protection.
+- Made AI evaluation trustworthy: fixed a statistical bug in a shared LLM-as-judge library, rebuilt a leaky PII benchmark and made outcome-based agent evals the team standard; added guardrails to an AI hardware recommender once data showed the agent, not the users, was over-sizing requests.
+- Push the frontier into production: context engineering, skills and hooks for the team's agents, and experiments with autonomous agent loops and goal-driven runs, several with positive results for production use.
 
 ### Technical Leader (Machine Learning, Fintech) | Mercado Libre
 
 Apr 2022 - Jun 2025 | Colombia
 
-- Technically guided a multidisciplinary team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI solutions for Mercado Pago on clean, hexagonal architectures.
-- Financial Data Enrichment, a GenAI platform that categorizes financial transactions across LATAM for Open Finance and saves $1.2M USD per month. In 2023, as soon as the GPT-3.5 API made it viable, moved it from regex rules to LLMs, owning the anonymization so no transaction reached a model with personal data: accuracy from 60% to 80%, operational cost down 75%, throughput from tens of millions of transactions per quarter to tens of millions per week.
-- Brought it in-house for privacy and control (2024): normalized and anonymized 18B transactions into 5M unique descriptions, sampled 100K by semantic similarity for GPT-4o-mini labeling (under $10 USD) and trained our own BERT-style embeddings; accuracy reached 90% with a further 30% cost cut, under 100 ms per transaction and hundreds of millions of transactions per month in near real time.
-- Deployed async and near-real-time ML systems with 99.97% uptime, p95 latency of 200 ms and 100K RPM capacity.
+- Technically guided a team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI for Mercado Pago on clean, hexagonal architectures.
+- Put LLMs in production in 2023, as soon as the GPT-3.5 API made it viable: Financial Data Enrichment moved from regex rules to LLMs, with accuracy from 60% to 80%, 75% lower cost and throughput from tens of millions of transactions per quarter to tens of millions per week. I owned the anonymization, so no transaction reached a model with personal data.
+- Brought it in-house in 2024 for privacy and control: distilled 18B transactions into 5M unique descriptions and 100K examples sampled by semantic similarity, labeled by GPT-4o-mini for under $10 USD, to train our own BERT-style embeddings: 90% accuracy, a further 30% cost cut and under 100 ms per transaction.
+- Ran near-real-time ML systems at 100K RPM, p95 200 ms and 99.97% uptime.
 
 ### Senior Machine Learning Engineer | Mercado Libre
 
 Oct 2020 - Mar 2022 | Colombia
 
-- Developed and productionized ML solutions for logistics optimization, reducing estimation errors by 30% and generating $3.2M USD in monthly billing savings.
-- Optimized data pipelines, reducing ETL execution time and cost by 8x.
+- ML estimation models for logistics that cut errors by 30% and saved $3.2M USD per month in billing; data pipelines 8x faster and cheaper.
 
-### Earlier Experience
+### Earlier Career | Global Hitss (Claro Colombia), Tigo Colombia
 
-- Senior Data Engineer | Global Hitss (Claro Colombia) | Nov 2019 - Oct 2020: measured the impact of prepaid campaigns, reducing end-user contact by 32% without affecting conversion.
-- Business Intelligence Analyst | Tigo Colombia | Jun 2015 - Nov 2019: demand forecasting and regression models that raised customer-service agent productivity by 27%.
-- Quality Analyst | Tigo Colombia | Jul 2013 - Jun 2015.
+2013 - 2020 | Colombia
+
+- Senior Data Engineer, Business Intelligence Analyst and Quality Analyst: near-real-time campaign analytics that cut end-user contact by 32%, and customer-service forecasting that raised agent productivity by 27%.
 
 ## Talks and Writing
 
@@ -54,15 +60,15 @@ Oct 2020 - Mar 2022 | Colombia
 ## Independent AI Work (Continuous Learning)
 
 - Agent-first income-tax engine: hexagonal / DDD backend with an explainable calculation pipeline, exposed to AI agents through a remote MCP server secured with OAuth 2.1, user consent and audit trails.
-- Personal knowledge base on Andrej Karpathy's LLM Wiki pattern (about 100 pages), kept consistent by a deterministic linter wired into agent hooks; tested a specialized classifier for routing content against a blind gold set (917 documents for USD 0.05).
-- Operating manual for my coding agents across Claude Code and Codex: every claim labeled verified, deduced or assumed, and conclusions re-derived by an independent path before delivery.
+- Personal knowledge base on Andrej Karpathy's LLM Wiki pattern, kept consistent by a deterministic linter wired into agent hooks; tested a specialized routing classifier against a blind gold set (917 documents for USD 0.05).
+- Operating manual for my coding agents in Claude Code and Codex: every claim labeled verified, deduced or assumed, and conclusions re-derived by an independent path before delivery.
+- Model lab: OpenAI GPT from GPT-3.5 to GPT-6 Astra, Anthropic Claude from 3.7 Sonnet to current Opus, Sonnet and Haiku, self-hosted Gemma 4 (26B MoE and E4B) and GLM-5.3, including the Claude Code harness on self-hosted models.
 
 ## Skills
 
-- AI and Agentic Engineering: Claude Code, Codex, Cursor, Model Context Protocol (MCP), skills and plugins, prompt optimization, context engineering, RAG, fine-tuning of BERT-style transformers, autonomous agent loops, multi-agent orchestration, cross-model review, spec-driven development, agent hooks, LLM evaluation (LLM-as-judge, scenario evals, golden fixtures), prompt-injection defense, PydanticAI, AI-assisted storytelling and executive presentations.
-- Models: OpenAI GPT (GPT-3.5 to GPT-6 Astra), Anthropic Claude (Claude 3.7 Sonnet to current Opus, Sonnet and Haiku), Google Gemini, self-hosted small models (Gemma 4 26B MoE and E4B), GLM-5.3; Claude Code harness running on self-hosted models.
-- Machine Learning and Data: tabular foundation models (TabPFN, TabICL, Mitra, TabDPT), GPU serving, Python, Pandas, NumPy, TensorFlow, PyTorch, deep learning, statistical and predictive models, SQL, NoSQL, ETL/ELT, BigQuery, Teradata.
-- Backend and Architecture: FastAPI, asyncio, Pydantic, SQLAlchemy, REST, gRPC, hexagonal architecture, domain-driven design, idempotency, state machines, eventual consistency, security hardening; Kubernetes, Docker, GCP, AWS, Terraform, Kafka, Redis, DynamoDB.
+- AI and Agentic Engineering: Claude Code, Codex, Cursor, Model Context Protocol (MCP), PydanticAI, spec-driven development, context engineering, prompt optimization, RAG, skills, plugins and hooks, multi-agent orchestration, autonomous agent loops, cross-model review, LLM and agent evaluation (LLM-as-judge, scenario evals, golden fixtures), prompt-injection defense, fine-tuning of BERT-style transformers, AI-assisted storytelling for executive presentations.
+- Machine Learning and Data: tabular foundation models (TabPFN, TabICL, Mitra, TabDPT), GPU serving, NLP, embeddings, deep learning, statistical and predictive models, Python, Pandas, NumPy, PyTorch, TensorFlow, SQL, BigQuery, ETL/ELT.
+- Backend and Architecture: FastAPI, asyncio, Pydantic, SQLAlchemy, REST, gRPC, hexagonal architecture, domain-driven design, idempotency, state machines, eventual consistency, security hardening; Kubernetes, Docker, GCP, AWS, Terraform, Kafka, Redis.
 
 ## Certifications
 
