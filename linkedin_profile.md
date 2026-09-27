@@ -47,7 +47,7 @@ Technically guided a multidisciplinary team of up to 20 (ML engineers, data scie
 
 ## Roles anteriores (reemplazar la descripción actual por estas versiones cortas)
 
-### Sr Machine Learning Engineer · Mercado Libre · Oct 2020 – Feb 2022
+### Sr Machine Learning Engineer · Mercado Libre · Oct 2020 – Mar 2022
 ML for logistics and fintech: estimation models that cut errors by 30% and saved $3.2M USD per month in billing, and data pipelines 8x faster and cheaper.
 
 ### Sr Data Engineer · Global Hitss · Nov 2019 – Oct 2020
@@ -90,3 +90,5 @@ Top skills (Acerca de): AI Agents · Large Language Models (LLM) · Generative A
 Agregadas (24), asociadas a los puestos de Technical Leader: AI Agents, Large Language Models (LLM), Generative AI, Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Large Language Model Operations (LLMOps), MLOps, Context Engineering, Software Architecture, Domain-Driven Design (DDD), Hexagonal Architecture, FastAPI, Claude Code, Transformer Models, Fine Tuning, Model Evaluation, Google Cloud Platform (GCP), Kubernetes, Docker, Apache Kafka, Spec-Driven Development, Storytelling, Executive Presentations.
 
 Eliminadas (21): Matlab, Microsoft Excel, Visual Basic for Applications (VBA), COPC, Customer Service, Redes informáticas, Time Management, TeamWork, Prioritize Workload, Logical Approach, Adaptability, Persuasion, Team Motivation, Analytical Reasoning, Data Extraction, Databases, Tableau, Business Intelligence (BI), Investigación y desarrollo, Management, Decision-Making.
+
+Python: se conservó "Python (Programming Language)" (nombre estándar) con las asociaciones de la skill "Python" (9 certificados y cursos) más el puesto de IA y 2 proyectos; "Python" se eliminó. Total: 51 skills.
