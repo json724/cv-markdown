@@ -8,7 +8,7 @@ Technical Leader, AI Engineering @ Mercado Libre | Building with AI since 2023: 
 
 I build with AI the way a wizard practices magic: curiosity to try every new tool before it goes mainstream, creativity to push what it can do, and the technical discipline that makes it work in production.
 
-For six years at Mercado Libre I have technically guided teams of up to 20 people and, since 2025, small expert teams amplified by AI. I have built with AI since it became commercially available. In 2023, as soon as the GPT-3.5 API made it viable, my team at Mercado Libre moved the categorization of financial transactions across Latin America from regex rules to LLMs, with every transaction anonymized before it reached a model: accuracy rose from 60% to 80% and costs fell 75%. In 2024 we brought that intelligence in-house for privacy and control: we distilled 18 billion transactions into 100K anonymized examples chosen by semantic similarity, had an LLM label them, and our own BERT-style embeddings now reach 90% accuracy on hundreds of millions of transactions a month in near real time, with no external API in the inference path. I told that story in "The New Financial Babel" on the Mercado Libre Tech blog and at PyCon Colombia 2025.
+For six years at Mercado Libre I have technically guided teams of up to 20 people and, since 2025, small expert teams amplified by AI. I have built with AI since it became commercially available. In 2023, as soon as the GPT-3.5 API made it viable, my team moved the categorization of financial transactions across Latin America from regex rules to LLMs, with every transaction anonymized before it reached a model: accuracy rose from 60% to 80% and costs fell 75%. In 2024 we brought that intelligence in-house for privacy and control: we distilled 18 billion transactions into 100K anonymized examples chosen by semantic similarity, had an LLM label them, and our own BERT-style embeddings now reach 90% accuracy on hundreds of millions of transactions a month in near real time, with no external API in the inference path. I told that story in "The New Financial Babel" on the Mercado Libre Tech blog and at PyCon Colombia 2025.
 
 In 2025 came the next turn with agentic IDEs: Cursor, then Claude Code and Codex. Since July 2025 I lead AI engineering: spec-driven development, MCP servers, skills and plugins, and a GPU platform for tabular foundation models that turned three months of work by two senior data scientists into a single day for one, piloted by Financial Risk and Shipping teams who asked to keep building.
 
@@ -21,7 +21,7 @@ The discipline behind the magic:
 
 AI also goes beyond code for me: I use it to build the storytelling and impact presentations I take to senior leadership.
 
-In a field that changes every month, I keep learning by building in my own time; my Projects section shows how.
+AI moves at a dizzying pace, and that is what I love about it: I keep up by building, putting every new model and protocol to work in my own projects first.
 
 Focus: agentic engineering (Claude Code, Codex, MCP, skills, context engineering, RAG) · LLM and agent evaluation · tabular foundation models. Models: GPT since 3.5, Claude since 3.7, self-hosted Gemma 4.
 
