@@ -2,13 +2,13 @@
 
 ## Headline
 
-Technical Leader, AI Engineering @ Mercado Libre | Building with AI since 2023: LLMs in production, agentic systems, MCP | Fintech
+Technical Leader, AI Engineering @ Mercado Libre | Building with AI since 2023: agentic systems, MCP | Fintech | Shipping
 
 ## About
 
 I build with AI the way a wizard practices magic: curiosity to try every new tool before it goes mainstream, creativity to push what it can do, and the technical discipline that makes it work in production.
 
-For six years at Mercado Libre I have technically guided teams of up to 20 people and, since 2025, small expert teams amplified by AI. I have built with AI since it became commercially available. In 2023, as soon as the GPT-3.5 API made it viable, my team moved the categorization of financial transactions across Latin America from regex rules to LLMs, with every transaction anonymized before it reached a model: accuracy rose from 60% to 80% and costs fell 75%. In 2024 we brought that intelligence in-house for privacy and control: we distilled 18 billion transactions into 100K anonymized examples chosen by semantic similarity, had an LLM label them, and our own BERT-style embeddings now reach 90% accuracy on hundreds of millions of transactions a month in near real time, with no external API in the inference path. I told that story in "The New Financial Babel" on the Mercado Libre Tech blog and at PyCon Colombia 2025.
+For six years at Mercado Libre I have technically guided teams of up to 20 people and, since 2025, small expert teams amplified by AI. I have built with AI since it became commercially available. In 2023, as soon as the GPT-3.5 API made it viable, my team moved the categorization of financial transactions across Latin America from regex rules to LLMs, with every transaction anonymized before it reached a model: accuracy rose from 60% to 80% and costs fell 75%. In 2024 we brought that intelligence in-house for privacy and control: we distilled 18 billion transactions into 100K anonymized examples chosen by semantic similarity, had an LLM label them under human review, and our own BERT-style embeddings now reach 90% accuracy on hundreds of millions of transactions a month in near real time, with no external API in the inference path. I told that story in "The New Financial Babel" on the Mercado Libre Tech blog and at PyCon Colombia 2025.
 
 In 2025 came the next turn with agentic IDEs: Cursor, then Claude Code and Codex. Since July 2025 I lead AI engineering: spec-driven development, MCP servers, skills and plugins, and a GPU platform for tabular foundation models that turned three months of work by two senior data scientists into a single day for one, piloted by Financial Risk and Shipping teams who asked to keep building.
 
@@ -41,7 +41,7 @@ Technically guided a multidisciplinary team of up to 20 (ML engineers, data scie
 
 • Financial Data Enrichment: a GenAI platform that categorizes financial transactions across LATAM for Open Finance, saving $1.2M USD per month.
 • 2023: moved it from regex rules to LLMs as soon as the GPT-3.5 API made it viable. I owned the anonymization, so no transaction reached a model with personal data. Accuracy from 60% to 80%, operational cost down 75%, throughput from tens of millions of transactions per quarter to tens of millions per week.
-• 2024: brought it in-house for privacy and control. Normalized and anonymized 18B transactions into 5M unique descriptions, sampled 100K by semantic similarity to cover the full space, had GPT-4o-mini label them for under $10 USD, and our own BERT-style embeddings replaced the external API in the inference path; accuracy reached 90% with a further 30% cost cut, under 100 ms per transaction, hundreds of millions of transactions per month in near real time.
+• 2024: brought it in-house for privacy and control. Normalized and anonymized 18B transactions into 5M unique descriptions, sampled 100K by semantic similarity to cover the full space, had GPT-4o-mini label them for under $10 USD with human review in Label Studio, and our own BERT-style embeddings replaced the external API in the inference path; accuracy reached 90% with a further 30% cost cut, under 100 ms per transaction, hundreds of millions of transactions per month in near real time.
 • Deployed async and near-real-time ML services at 100K RPM, p95 200 ms, 99.97% uptime.
 • Shared the work publicly: "The New Financial Babel" (Mercado Libre Tech blog, Jul 2025) and a talk at PyCon Colombia 2025.
 
@@ -69,23 +69,26 @@ Sin descripción; considerar ocultar el puesto de profesor (2010) para enfocar e
   Talk co-presented with Jonny Jimenez: using an LLM as the teacher to label anonymized financial transactions, and a fine-tuned BERT-style model as the student that runs in-house, for accuracy, cost and privacy control.
 • La certificación Generative AI Leader (Google, Jul 2026) está en Licencias y certificaciones.
 
-## Projects (sección Proyectos) — 3 entradas
+## Projects (sección Proyectos) — 5 entradas (skills actualizadas 2026-10-14)
 
 ### Agent-first income-tax engine (2026)
 An income-tax calculation engine built to be used by AI agents, not just people. Hexagonal / DDD backend in Python (FastAPI, async SQLAlchemy) with a 6-stage explainable calculation pipeline and legal parameters versioned by year, so a new tax year needs no code changes. Exposed to agents through a remote MCP server secured with OAuth 2.1 (standard discovery and dynamic client registration), where the user's identity always comes from the token, never from the agent's input, plus user consent and audit trails.
-Skills: Model Context Protocol (MCP) · FastAPI · Domain-Driven Design · OAuth
+Skills: Python (Programming Language) · Model Context Protocol (MCP) · FastAPI · Domain-Driven Design (DDD) · Hexagonal Architecture · AI Agents
 
 ### LLM Wiki: personal knowledge base on Karpathy's pattern (2026)
 A personal knowledge base of about 100 pages built on Andrej Karpathy's LLM Wiki pattern and maintained by AI agents across many sessions. To keep an LLM-written system consistent without trusting the model to remember the rules, every check lives in code: a deterministic linter wired into agent lifecycle hooks gives each figure a declared owner, marks a page stale when its inputs change, and blocks the session from closing while the change log is out of date. To study how others use the pattern, I tested a specialized classifier (Jev) for routing content: validated against a blind gold set first, then classified 917 community comments for USD 0.05 and kept the 51 with real, non-promotional experience.
-Skills: Context Engineering · AI Agents · LLM Evaluation · Python
+Skills: Python (Programming Language) · Context Engineering · AI Agents · Large Language Models (LLM) · Model Evaluation
 
 ### Operating manual for coding agents (2026)
 A shared rulebook for my agents in Claude Code and Codex: every claim is labeled verified, deduced or assumed; conclusions are re-derived by an independent path before delivery; and the agent attacks its own answer before handing it over. It turns agent output from plausible into auditable.
-Skills: Claude Code · Codex · Prompt Engineering
+Skills: Claude Code · AI Agents · Context Engineering
 
 ### Model and harness lab (2023 – present)
 Hands-on across model families to know what each one is good for: OpenAI GPT from 3.5 to GPT-6 Astra, Anthropic Claude from Claude 3.7 Sonnet to current Opus, Sonnet and Haiku, and Google Gemini. Deployed self-hosted small models (Gemma 4 26B MoE and E4B), tested GLM-5.3, and ran the Claude Code harness on self-hosted models to measure where local inference is enough and where it is not. Next on the ladder: fine-tuning an LLM (supervised fine-tuning with LoRA adapters, then preference or reward-based post-training such as DPO or GRPO), as soon as a use case needs more than prompts, context and RAG can give.
-Skills: Large Language Models (LLM) · Small Language Models · Claude Code
+Skills: Large Language Models (LLM) · Generative AI · Claude Code · Model Evaluation
+
+### Reconocimiento de Actividades Humanas con Imágenes RGBD (Jul 2012 – Dec 2012)
+Proyecto de Grado. Tutor: Ph.D Juan Carlos Niebles. Asociado a Universidad del Norte. Proyecto previo, sin cambios salvo la fecha (antes figuraba "Nov 2012 – Present").
 
 ## Skills (publicado 2026-09-27)
 
