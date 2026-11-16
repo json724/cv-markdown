@@ -37,7 +37,7 @@ Apr 2022 - Jun 2025 | Colombia
 
 - Technical leadership and mentoring of a team of up to 20 (ML engineers, data scientists, data engineers) building ML and GenAI for Mercado Pago on clean, hexagonal architectures, communicating strategy and outcomes to senior stakeholders.
 - Put LLMs in production in 2023, as soon as the GPT-3.5 API made it viable: Financial Data Enrichment moved from regex rules to LLMs, with accuracy from 60% to 80%, 75% lower cost and throughput from tens of millions of transactions per quarter to tens of millions per week. I owned the anonymization, so no transaction reached a model with personal data.
-- Brought it in-house in 2024 for privacy and control: distilled 18B transactions into 5M unique descriptions and 100K examples sampled by semantic similarity, labeled by GPT-4o-mini for under $10 USD, to train our own BERT-style embeddings: 90% accuracy, a further 30% cost cut and under 100 ms per transaction.
+- Brought it in-house in 2024 for privacy and control: distilled 18B transactions into 5M unique descriptions and 100K examples sampled by semantic similarity, labeled by GPT-4o-mini for under $10 USD and reviewed in Label Studio, to train our own BERT-style embeddings: 90% accuracy, a further 30% cost cut and under 100 ms per transaction.
 - Ran distributed, observable near-real-time ML systems at 100K RPM, p95 200 ms and 99.97% uptime.
 
 ### Senior Machine Learning Engineer | Mercado Libre
